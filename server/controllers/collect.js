@@ -1,5 +1,3 @@
-const { ValidationError } = require('@strapi/utils').errors;
-
 module.exports = ({ strapi }) => ({
   send(ctx) {
     const payload = ctx.request.body;
