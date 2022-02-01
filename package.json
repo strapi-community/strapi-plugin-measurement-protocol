@@ -18,8 +18,8 @@
     "protocol"
   ],
   "files": [
-    "./server",
-    "./strapi-server.js"
+    "server",
+    "strapi-server.js"
   ],
   "dependencies": {
     "axios": "0.25.0"
