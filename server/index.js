@@ -1,3 +1,5 @@
+'use strict';
+
 const services = require('./services');
 const config = require('./config');
 const controllers = require('./controllers');

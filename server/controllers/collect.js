@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = ({ strapi }) => ({
   send(ctx) {
     const payload = ctx.request.body;

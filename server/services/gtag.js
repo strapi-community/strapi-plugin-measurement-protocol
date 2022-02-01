@@ -1,3 +1,5 @@
+'use strict';
+
 const axios = require('axios');
 const debug = require('debug')('strapi:strapi-plugin-measurement-protocol');
 
