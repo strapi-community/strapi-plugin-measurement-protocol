@@ -1,0 +1,58 @@
+{
+  "name": "strapi-plugin-measurement-protocol",
+  "version": "1.0.0",
+  "description": "Plugin used to send data to Google Analytics with Measurement Protocol",
+  "strapi": {
+    "displayName": "Google Analytics - Measurement Protocol",
+    "name": "measurement-protocol",
+    "description": "Plugin used to send data to Google Analytics with Measurement Protocol",
+    "required": false,
+    "kind": "plugin"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "google",
+    "analytics",
+    "measurement",
+    "protocol"
+  ],
+  "files": [
+    "./server",
+    "./strapi-server.js"
+  ],
+  "dependencies": {
+    "axios": "0.25.0"
+  },
+  "devDependencies": {
+    "@strapi/strapi": "^4.0.6",
+    "@strapi/utils": "^4.0.6",
+    "debug": "4.3.3"
+  },
+  "author": {
+    "name": "Sacha Stafyniak",
+    "email": "sacha@digisquad.io",
+    "url": "https://digisquad.io"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi Community",
+      "url": "https://github.com/strapi-community"
+    },
+    {
+      "name": "Sacha Stafyniak",
+      "email": "sacha@digisquad.io",
+      "url": "https://digisquad.io",
+      "lead": true
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/strapi-community/strapi-plugin-measurement-protocol/issues"
+  },
+  "homepage": "https://github.com/strapi-community/strapi-plugin-measurement-protocol",
+  "engines": {
+    "node": ">=12.x. <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
