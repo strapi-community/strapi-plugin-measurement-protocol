@@ -87,10 +87,10 @@ gtag('get', 'G-XXXXXXXXX', 'client_id', (clientId) => {
       events: [{name: "add_payment_info"}]
     })
   })
-  ServerAPI.addCustomerTier();
 });
 ```
 
+> The /api/measurement-protocol/collect endpoint will bind the client_id with the connected strapi user id
 > more info: https://developers.google.com/analytics/devguides/collection/protocol/ga4/user-properties?client_type=gtag
 
 ### Backend usage
