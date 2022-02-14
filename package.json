@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-measurement-protocol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin used to send data to Google Analytics with Measurement Protocol",
   "strapi": {
     "displayName": "Google Analytics - Measurement Protocol",
